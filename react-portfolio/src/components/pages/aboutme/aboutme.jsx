@@ -16,7 +16,7 @@ function aboutMe() {
                     <Tabs defaultActiveKey="ab-me" id="">
 
                         <Tab eventKey="ab-me" title="ab me">
-                            <p className='about-me-text'>Hi, my name is Joseph. </p>
+                            <p className='ab-me-text'>Hi, my name is Joseph. </p>
                         </Tab>
 
                     </Tabs>
