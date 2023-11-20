@@ -11,6 +11,7 @@ function Footer() {
                     <Col xs="auto">
                         <a href='https://github.com/jotex11' target="_blank" rel="noopener noreferrer"></a>
                         <a href= 'https://www.linkedin.com/in/joseph-teixeira-234a90288/' target="_blank" rel="noopener noreferrer"></a>
+                    </Col>    
                 </Row>
                 <Row className="justify-content-center">
                     <Col xs="auto">

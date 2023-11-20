@@ -1,7 +1,7 @@
-import portfolio from 'react-portfolio/src/assets/images/projects/portfolio.png';
-import quiz from 'react-portfolio/src/assets/images/projects/quiz.jpeg';
-import tunecast from 'react-portfolio/src/assets/images/projects/tunecast.jpeg';
-import milbook from 'react-portfolio/src/assets/images/projects/milbook.png';
+import portfolio from '../images/projects/portfolio.png';
+import quiz from '../images/projects/quiz.jpeg';
+import tunecast from '../images/projects/tunecast.jpeg';
+import milbook from '../images/projects/milbook.png';
 
 const projectInfo = [
     {

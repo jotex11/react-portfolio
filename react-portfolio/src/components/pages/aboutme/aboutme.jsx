@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Row, Col, Container, Tabs, Tab } from 'react-bootstrap';
 import './aboutme.css';
 import '../../../style.css';
-import mypic from '../../../assets/images/mypic.jpg';
+import mypic from '../../../assets/images/mypic.jpeg';
 
 
 function aboutMe() {
