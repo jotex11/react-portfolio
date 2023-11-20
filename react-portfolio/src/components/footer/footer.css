@@ -1,0 +1,25 @@
+.footer {
+    background: black;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer h4 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.my-icons {
+    color: white;
+    margin: 10px 10px 0px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.my-icons:hover {
+    color: gray);
+}
