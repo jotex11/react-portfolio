@@ -3,7 +3,7 @@ import quiz from '../images/projects/quiz.jpeg';
 import tunecast from '../images/projects/tunecast.jpeg';
 import milbook from '../images/projects/milbook.png';
 
-const projectInfo = [
+export const projectInfo = [
     {
     name: 'Portfolio',
     description: 'A front end portfolio highlighting skills, I have, projects and resume',

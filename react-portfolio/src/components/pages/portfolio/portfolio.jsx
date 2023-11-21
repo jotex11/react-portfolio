@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import Project from '../../project/Project';
-import { projectInfo } from '../../../assets/data/data';
+import  { projectInfo }  from '../../../assets/data/data';
 import './portfolio.css';
 import '../../../style.css';
 
