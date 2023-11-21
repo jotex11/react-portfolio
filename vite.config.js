@@ -9,4 +9,8 @@ export default {
             input: 'index.html',
         },
     },
+    server: {
+        port: 3002,
+        open: true,
+    },
 };
