@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    white-space: nowrap;
+    background-color: black;
+    height: 5vh;
+}
+
+.navlink {
+    font-family: 'Roboto', sans-serif;
+    color: lightgray !important;
+    letter-spacing: .1em;
+    margin: 0 15px;
+    text-decoration: none !important;
+}
+
+.navlink:hover {
+    color: gray !important;
+}
+
+@media (max-width: 768px) {
+    .navlink {
+        font-size: .9rem;
+        letter-spacing: 0;
+        margin: 0px 15px;
+    }
+    
+    .navstuff {
+        margin-bottom: 10px;
+    }
+}
