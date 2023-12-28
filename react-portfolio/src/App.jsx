@@ -21,11 +21,11 @@ function App() {
         </div>
         <main className="main-content">
           <Routes>
-            <Route path="/" element={<AboutMe />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/skills" element={<Skills />} />
+            <Route path="/" element={AboutMe} />
+            <Route path="/portfolio" element={Portfolio} />
+            <Route path="/resume" element={Resume} />
+            <Route path="/contact" element={Contact} />
+            <Route path="/skills" element={Skills} />
           </Routes>
         </main>
         <Footer />

@@ -39,7 +39,7 @@ function Header() {
       </div>
       <div>
         <nav>
-      <h1>Hello!</h1>
+      <h1 style={{ textAlign: 'center', color: 'blue'}}>Hello!</h1>
         </nav>
       </div>
     </header>
