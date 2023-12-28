@@ -10,6 +10,7 @@ function Nav() {
                     <a className='navlink' href="/portfolio">portfolio</a>
                     <a className='navlink' href="/resume">resume</a>
                     <a className='navlink' href="/contactme">contact me</a>
+                    <a className='navlink' href="/skills">skills</a>
                 </div>
         </nav>
     )

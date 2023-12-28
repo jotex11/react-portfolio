@@ -16,7 +16,8 @@ function aboutMe() {
                     <Tabs defaultActiveKey="ab-me" id="">
 
                         <Tab eventKey="ab-me" title="ab me">
-                            <p className='ab-me-text'>Hi, my name is Joseph. </p>
+                            <p className='ab-me-text'>I am a 19-year-old web developer who recently graduated from a web development bootcamp. Passionate about crafting beautiful and functional web experiences, 
+                            I am currently seeking opportunities in front-end development. </p>
                         </Tab>
 
                     </Tabs>

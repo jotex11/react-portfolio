@@ -39,11 +39,7 @@ function Header() {
       </div>
       <div>
         <nav>
-        <a href="#about" onClick={() => scrollToSection('about')}>About Me</a>
-          <a href="#portfolio" onClick={() => scrollToSection('portfolio')}>Portfolio</a>
-          <a href="#resume" onClick={() => scrollToSection('resume')}>Resume</a>
-          <a href="#contact" onClick={() => scrollToSection('contact')}>Contact Me</a>
-          <a href="#skills" onClick={() => scrollToSection('skills')}>Skills</a>
+      <h1>Hello!</h1>
         </nav>
       </div>
     </header>
