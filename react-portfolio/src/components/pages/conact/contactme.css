@@ -1,0 +1,25 @@
+/* contact.css */
+
+/* Style for the Contact Me heading */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style for contact details */
+  p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for LinkedIn link */
+  a {
+    color: #0077b5; /* LinkedIn blue color */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

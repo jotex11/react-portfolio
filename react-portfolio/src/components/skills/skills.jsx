@@ -3,10 +3,17 @@ import React from 'react';
 function Skills() {
   // List of skills
   const skillsList = [
-    'HTML5',
-    'CSS3',
+    'HTML',
+    'CSS',
     'JavaScript',
-    // Add more skills as needed
+    'UX Design',
+    'Troubleshooting',
+    'Problem-Solving',
+    'RESTful APIs',
+    'Version Control/Git',
+    'Web Technologies: React JS, Jquery, Bootstrap',
+    'Attention to Detail',
+    'Team Collaboration'
   ];
 
   return (
