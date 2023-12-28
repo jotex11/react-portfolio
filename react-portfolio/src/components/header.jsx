@@ -33,16 +33,17 @@ function Header() {
       <div className={`header-content ${scrollDirection === "down" ? 'hide' : 'show'}`}>
         <div className="container-fluid d-flex flex-column justify-content-center align-items-center">
           <div>
-            <h1>Hi</h1>
+            <h1>Joseph Teixeira Portfolio</h1>
           </div>
         </div>
       </div>
       <div>
         <nav>
-          <a href="/">About Me</a>
-          <a href="/portfolio">Portfolio</a>
-          <a href="#">Resume</a>
-          <a href="/contactme">Contact Me</a>
+        <a href="#about" onClick={() => scrollToSection('about')}>About Me</a>
+          <a href="#portfolio" onClick={() => scrollToSection('portfolio')}>Portfolio</a>
+          <a href="#resume" onClick={() => scrollToSection('resume')}>Resume</a>
+          <a href="#contact" onClick={() => scrollToSection('contact')}>Contact Me</a>
+          <a href="#skills" onClick={() => scrollToSection('skills')}>Skills</a>
         </nav>
       </div>
     </header>
