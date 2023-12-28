@@ -6,8 +6,8 @@ import Footer from './components/footer/footer';
 import AboutMe from './components/pages/aboutme/aboutme';
 import Portfolio from './components/pages/portfolio/portfolio';
 import Resume from './components/pages/resume/resume';
-import Contact from './components/pages/contact/contact';
-import Skills from './components/pages/skills/skills';
+import Contact from './components/pages/conact/contactme';
+import Skills from './components/skills/skills';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/style.css';
 
@@ -34,4 +34,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
