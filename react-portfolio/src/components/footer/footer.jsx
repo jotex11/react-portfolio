@@ -1,8 +1,9 @@
 import React from 'react';
-import './footer.css';
+import './Footer.css';
 import '../../style.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin, } from '@fortawesome/free-brands-svg-icons'
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaGithub, FaLinkedin } from 'react-icons/fa'; // Import Font Awesome icons
 
 function Footer() {
     return (
@@ -10,17 +11,13 @@ function Footer() {
             <Container fluid>
                 <Row className="justify-content-center">
                     <Col xs="auto">
-                        <a href='https://github.com/jotex11' target="_blank" rel="noopener noreferrer">
-                            <FaGithub size={30} /> {/* GitHub icon */}
-                        </a>
-                        <a href='https://www.linkedin.com/in/joseph-teixeira-234a90288/' target="_blank" rel="noopener noreferrer">
-                            <FaLinkedin size={30} /> {/* LinkedIn icon */}
-                        </a>
-                    </Col>    
+                        <a href='https://github.com/jotex11' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} className='my-icons' /></a>
+                        <a href='https://www.linkedin.com/in/joseph-teixeira-234a90288' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} className='my-icons' /></a>
+                    </Col>
                 </Row>
                 <Row className="justify-content-center">
                     <Col xs="auto">
-                        <h4>Made by Joseph Teixeira</h4>
+                        <h4> Made by Joseph Teixeira</h4>
                     </Col>
                 </Row>
             </Container>
